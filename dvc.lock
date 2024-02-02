@@ -19,6 +19,10 @@ stages:
       hash: md5
       md5: ec2bccaeac2082ca1917c44fde584ce3
       size: 41
+    - path: stage_01.py
+      hash: md5
+      md5: 6155ac786b098d6ab9a0e744bfe74d1c
+      size: 94
     - path: stage_02.py
       hash: md5
       md5: 6fd6e3c3edb6a68ac04aecc5d4445565
@@ -30,6 +34,14 @@ stages:
       hash: md5
       md5: d81c72486945b81d74d17a6d5a2627e2
       size: 60
+    - path: stage_01.py
+      hash: md5
+      md5: 6155ac786b098d6ab9a0e744bfe74d1c
+      size: 94
+    - path: stage_02.py
+      hash: md5
+      md5: 6fd6e3c3edb6a68ac04aecc5d4445565
+      size: 137
     - path: stage_03.py
       hash: md5
       md5: 3d28a34a682c2d5031fb559294da5838
