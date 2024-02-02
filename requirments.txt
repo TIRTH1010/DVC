@@ -1,0 +1,6 @@
+pandas 
+numpy 
+pandas
+mlflow
+dvc
+flask
