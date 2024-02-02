@@ -14,9 +14,9 @@ touch .gitignore
 touch README.md
 pip install -r requirements.txt
 dvc init
-dvc repro
+dvc repro  #when yaml created staging defined with dependencies
 dvc dag
-dvc add <file name>
+dvc add <file name> #for only single file
 git add <file_names> && git commit -m "file added successfully
 dvc remote add myremote <any_remote_location>
 dvc push
